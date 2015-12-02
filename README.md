@@ -27,7 +27,7 @@ TTNCache *cache = [[TTNCache alloc] initWithCacheDirectory:@"TTNCacheDirectory"]
 
 ### Set Object
 
-> support all \<NSCopying\> object
+> support all \<NSCoding\> object
 
 ```
 - (void)setObject:(id<NSCoding>)obj forKeyedSubscript:(NSString *) key;
