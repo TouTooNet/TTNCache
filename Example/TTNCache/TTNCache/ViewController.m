@@ -7,6 +7,9 @@
 //
 
 #import "ViewController.h"
+
+#import "TTNCache.h"
+
 @interface ViewController ()
 
 @end
@@ -15,6 +18,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    TTNCache *cache = [[TTNCache alloc] initWithCacheDirectory:@"TTNCacheDirectory"];
+    
+    
+    cache setObject:<#(id<NSCoding>)#> forKeyedSubscript:<#(NSString *)#>
 }
 
 - (void)didReceiveMemoryWarning {
