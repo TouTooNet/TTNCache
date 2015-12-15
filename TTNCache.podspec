@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name          = 'TTNCache'
-  s.version       = '0.0.2'
+  s.version       = '0.0.1'
   s.source_files  = 'TTNCache/*.{h,m}'
   s.homepage      = 'https://github.com/TouTooNet/TTNCache'
   s.summary       = 'Fast object cache for iOS and OS X.'
