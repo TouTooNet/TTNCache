@@ -287,6 +287,8 @@ static inline NSDictionary * objToDictionary(id <NSCoding> obj, NSTimeInterval a
                     weakSelf.memoryCaches[key] = cacheData;
                 }
                 block(strongSelf, key, cacheData);
+            } else {
+                block(strongSelf, key, nil);
             }
         }
     });
